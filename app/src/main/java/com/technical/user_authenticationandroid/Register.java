@@ -23,5 +23,6 @@ public class Register extends AppCompatActivity {
         lastName = findViewById(R.id.lastName1);
         postalAddress = findViewById(R.id.postalAddress1);
         register = findViewById(R.id.register1);
+        emailAddress = findViewById(R.id.email);
     }
 }
