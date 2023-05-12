@@ -67,6 +67,10 @@ public class Register extends AppCompatActivity {
         {
             lastName.setError("Last name is required!");
         }
+        if(!isEmpty(emailAddress))
+        {
+            emailAddress.setError("Email is required");
+        }
     }
 
 
